@@ -235,5 +235,7 @@ def import_vault():
     conn.commit()
 
     return redirect("/dashboard")
+
+
 if __name__ == "__main__":
-    app.run(debug=True)
+    app.run()
